@@ -5,7 +5,6 @@ const {SERVER_PORT, CONNECTION_STRING} = process.env
 const ctrl = require("./controller")
 
 const app = express()
-const SERVER_PORT = 3456
 
 app.use(express.json())
 
